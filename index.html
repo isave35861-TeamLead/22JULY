@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple JS Example</title>
+</head>
+<body>
+  <h2>Welcome to My Page</h2>
+  
+  <label for="nameInput">Enter your name:</label>
+  <input type="text" id="nameInput" placeholder="Type here...">
+  
+  <button onclick="showGreeting()">Say Hello</button>
+  
+  <p id="output"></p>
+  
+  <script>
+    function showGreeting() {
+      // Get the value from the input box
+      var name = document.getElementById("nameInput").value;
+      
+      // Display a greeting message
+      if (name) {
+        document.getElementById("output").innerText = "Hello, " + name + "! Welcome to DevOps learning Rajratna.";
+      } else {
+        document.getElementById("output").innerText = "Please enter your name first.";
+      }
+    }
+  </script>
+</body>
+</html>
+
