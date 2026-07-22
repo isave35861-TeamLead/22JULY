@@ -1,4 +1,2 @@
 Rajratna
 njali
-Shila
-
